@@ -11,9 +11,9 @@ spring:
       ddl-auto: create-drop
   datasource:
     platform: postgres
-    url: jdbc:postgresql://localhost:5432/app
+    url: jdbc:postgresql://localhost:5432/login_system
     username: postgres
-    password: *********
+    password: postgres
     driverClassName: org.postgresql.Driver
     webmvc:
       cors:
